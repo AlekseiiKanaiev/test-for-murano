@@ -24,7 +24,6 @@ function scripts() {
 
 function startWatch(){
     watch('./app/*.js', scripts);
-
 }
 
 exports.start = parallel([scripts, start]);
